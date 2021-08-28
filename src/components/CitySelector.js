@@ -1,9 +1,18 @@
 import React from "react";
 
+
+
 const CitySelector = () => {
+
+    // fetch('https://mocki.io/v1/07158a56-ff47-4e71-8180-d838ab25c7be')
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data);
+    //     });
+
     return (
         <div>
-            <label for="cities">Select your city:</label>
+            <label htmlFor="cities">Select your city:</label>
 
                 <select name="cities" id="cities">
                     {/* some loop will populate this */}
